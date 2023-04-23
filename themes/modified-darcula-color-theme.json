@@ -1874,7 +1874,7 @@
     "listFilterWidget.background": "#45494a",
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#ff635f",
-    "statusBar.foreground": "#ffffff",
+    "statusBar.foreground": "#cccccc",
     "statusBar.background": "#3c3f41",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#cc6633",
