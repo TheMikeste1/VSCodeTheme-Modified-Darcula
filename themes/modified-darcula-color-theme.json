@@ -200,7 +200,7 @@
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#a9b7c6"
+        "foreground": "#9876AA"
       }
     },
     {
@@ -294,7 +294,7 @@
       "name": "css color standard name",
       "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
       "settings": {
-        "foreground": "#6897bb"
+        "foreground": "#9876AA"
       }
     },
     {
@@ -426,7 +426,7 @@
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
-        "foreground": "#cc7832"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -517,7 +517,7 @@
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
-        "foreground": "#cc7832"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -750,7 +750,7 @@
       "name": "Constant other symbol",
       "scope": "constant.other.symbol",
       "settings": {
-        "foreground": "#a9b7c6"
+        "foreground": "#9876AA"
       }
     },
     {
@@ -764,7 +764,7 @@
       "name": "Constants",
       "scope": "constant",
       "settings": {
-        "foreground": "#6897bb"
+        "foreground": "#9876AA"
       }
     },
     {
@@ -947,7 +947,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
-        "foreground": "#cc7832"
+        "foreground": "#4d98f9"
       }
     },
     {
@@ -1805,6 +1805,14 @@
       "scope": "punctuation.definition.block.sequence.item.yaml",
       "settings": {
         "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "scope": [
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#cc7832"
       }
     },
     {
