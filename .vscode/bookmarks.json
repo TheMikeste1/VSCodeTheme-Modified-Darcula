@@ -14,27 +14,27 @@
 					"label": "C/C++"
 				},
 				{
-					"line": 151,
+					"line": 158,
 					"column": 8,
 					"label": "Haskell"
 				},
 				{
-					"line": 167,
+					"line": 174,
 					"column": 10,
 					"label": "Java"
 				},
 				{
-					"line": 222,
+					"line": 229,
 					"column": 7,
 					"label": "Python"
 				},
 				{
-					"line": 316,
+					"line": 323,
 					"column": 10,
 					"label": "Rust"
 				},
 				{
-					"line": 367,
+					"line": 374,
 					"column": 9,
 					"label": "Other"
 				}

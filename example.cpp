@@ -24,7 +24,7 @@ class TestClass {
     }
 
     template <typename T, size_t SizeT>
-    void thing2()
+    [[maybe_unused]] void thing2() noexcept
     {
         T a = SizeT;
         T b = 2;
