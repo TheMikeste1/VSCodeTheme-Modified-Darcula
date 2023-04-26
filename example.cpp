@@ -5,12 +5,24 @@ namespace t {
   const int TEST2 = 2;
 }
 
+/**
+ * @brief TEST <code>Markup<</code>
+ */
 class TestClass {
     void thing()
     {
         int a = 1;
         int b = 2;
         int c = a + b;
+        this->thing();
+    }
+
+    template <typename T>
+    void thing2()
+    {
+        T a = 1;
+        T b = 2;
+        T c = a + b;
         this->thing();
     }
 };
