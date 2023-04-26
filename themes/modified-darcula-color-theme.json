@@ -40,7 +40,11 @@
     },
     {
       "name": "Comment - Documentation",
-      "scope": "comment.block.documentation, punctuation.definition.comment.begin, punctuation.definition.comment.end.documentation",
+      "scope": [
+         "comment.block.documentation",
+        "punctuation.definition.comment.begin.documentation",
+        "punctuation.definition.comment.end.documentation"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#629755"
