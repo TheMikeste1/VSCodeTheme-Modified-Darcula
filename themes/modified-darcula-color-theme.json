@@ -6,12 +6,24 @@
     "enumMember": {
       "foreground": "#a9b7c6"
     },
+    "namespace": {
+      "foreground": "#a9b7c677",
+      "italic": true
+    },
+    "property": {
+      "foreground": "#9876AA",
+      "italic": true
+    },
     "variable.constant": {
       "foreground": "#9876AA"
     },
     "variable.defaultLibrary": {
       "foreground": "#a9b7c6"
-    }
+    },
+    "variable.global": {
+      "foreground": "#9876AA",
+      "underline": true
+    },
   },
   "tokenColors": [
     // General
@@ -104,6 +116,14 @@
       }
     },
     {
+      "name": "C Namespace selector (::)",
+      "scope": "punctuation.separator.scope-resolution.cpp, punctuation.separator.namespace.access.cpp",
+      "settings": {
+        "foreground": "#a9b7c677",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "C type posix-reserved",
       "scope": "support.type.posix-reserved.c,support.type.posix-reserved.cpp",
       "settings": {
@@ -111,10 +131,10 @@
       }
     },
     {
-      "name": "C/C++ template",
-      "scope": "entity.name.type.template.cpp,meta.template.definition.cpp",
+      "name": "C/C++ template entity",
+      "scope": "entity.name.type.template.cpp",
       "settings": {
-        "foreground": "#ff0000"
+        "foreground": "#9876AA",
       }
     },
 
