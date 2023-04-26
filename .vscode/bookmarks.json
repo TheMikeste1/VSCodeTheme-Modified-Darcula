@@ -4,37 +4,37 @@
 			"path": "themes/modified-darcula-color-theme.json",
 			"bookmarks": [
 				{
-					"line": 28,
+					"line": 31,
 					"column": 11,
 					"label": "General"
 				},
 				{
-					"line": 74,
+					"line": 77,
 					"column": 7,
 					"label": "C/C++"
 				},
 				{
-					"line": 141,
+					"line": 151,
 					"column": 8,
 					"label": "Haskell"
 				},
 				{
-					"line": 157,
+					"line": 167,
 					"column": 10,
 					"label": "Java"
 				},
 				{
-					"line": 212,
+					"line": 222,
 					"column": 7,
 					"label": "Python"
 				},
 				{
-					"line": 306,
+					"line": 316,
 					"column": 10,
 					"label": "Rust"
 				},
 				{
-					"line": 357,
+					"line": 367,
 					"column": 9,
 					"label": "Other"
 				}

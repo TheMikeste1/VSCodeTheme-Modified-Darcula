@@ -14,6 +14,9 @@
       "foreground": "#9876AA",
       "italic": true
     },
+    "type": {
+      "foreground": "#B9BCD1",
+    },
     "variable.constant": {
       "foreground": "#9876AA"
     },
@@ -121,6 +124,13 @@
       "settings": {
         "foreground": "#a9b7c677",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C Semicolon",
+      "scope": "punctuation.terminator.statement.cpp",
+      "settings": {
+        "foreground": "#cc7832",
       }
     },
     {

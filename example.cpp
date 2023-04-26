@@ -31,7 +31,17 @@ class TestClass {
         T c = a + b;
         this->thing();
     }
+
+    void thing3();
 };
+
+void TestClass::thing3()
+{
+    MyType a = 1;
+    int b = 2;
+    int c = a + b;
+    this->thing();
+}
 
 using namespace t;
 // Comment
