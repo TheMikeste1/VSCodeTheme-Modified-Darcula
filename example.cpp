@@ -47,7 +47,7 @@ using namespace t;
 // Comment
 int main() {
     constexpr int TESTER = 1;
-    const int TESTER2 = 1;
+    const int TESTER2 = 1;  //!< Test
 
 
     std::cout << "Hello, World!\n" << TEST << TEST2 << std::endl;
