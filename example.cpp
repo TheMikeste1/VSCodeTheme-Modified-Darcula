@@ -45,17 +45,19 @@ void TestClass::thing3()
 
 using namespace t;
 // Comment
+/* Block comment */
 int main() {
     constexpr int TESTER = 1;
     const int TESTER2 = 1;  //!< Test
 
+    static_assert(2 + 2 == 4);
 
     std::cout << "Hello, World!\n" << TEST << TEST2 << std::endl;
     TEST = 2;
     TEST2 = 3;
 
     int a /= 0;
-    int b = a = 1;
+    int b = a = static_cast<int>(1.5);
 
     bool c = true;
 

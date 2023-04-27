@@ -77,6 +77,13 @@
       }
     },
     {
+      "name": "Operators",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#cc7832"
+      }
+    },
+    {
       "name": "operator delete",
       "scope": "keyword.operator.delete",
       "settings": {
@@ -126,6 +133,18 @@
       "scope": "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c",
       "settings": {
         "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "C++ casts",
+      "scope": [
+        "keyword.operator.cast.const_cast.cpp",
+        "keyword.operator.cast.dynamic_cast.cpp",
+        "keyword.operator.cast.reinterpret_cast.cpp",
+        "keyword.operator.cast.static_cast.cpp",
+      ],
+      "settings": {
+        "foreground": "#cc7832"
       }
     },
     {
@@ -834,13 +853,6 @@
     {
       "name": "Punctuation",
       "scope": "punctuation.separator.delimiter",
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "Operators",
-      "scope": "keyword.operator",
       "settings": {
         "foreground": "#a9b7c6"
       }
