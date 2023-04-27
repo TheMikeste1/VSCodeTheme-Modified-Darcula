@@ -11,21 +11,21 @@
       "italic": true
     },
     "property": {
-      "foreground": "#9876AA",
+      "foreground": "#9876aa",
       "italic": true
     },
     "type": {
-      "foreground": "#B9BCD1",
+      "foreground": "#b9bcd1",
       "italic": true
     },
     "variable.constant": {
-      "foreground": "#9876AA"
+      "foreground": "#9876aa"
     },
     "variable.defaultLibrary": {
       "foreground": "#a9b7c6"
     },
     "variable.global": {
-      "foreground": "#9876AA",
+      "foreground": "#9876aa",
       "underline": true
     },
   },
@@ -218,7 +218,7 @@
       "name": "C/C++ template entity",
       "scope": "entity.name.type.template.cpp",
       "settings": {
-        "foreground": "#9876AA",
+        "foreground": "#9876aa",
       }
     },
     {
@@ -354,7 +354,7 @@
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#9876aa"
       }
     },
     {
@@ -821,7 +821,7 @@
       "name": "css color standard name",
       "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#9876aa"
       }
     },
     {
@@ -1019,7 +1019,7 @@
       "name": "Constant other symbol",
       "scope": "constant.other.symbol",
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#9876aa"
       }
     },
     {
@@ -1033,7 +1033,7 @@
       "name": "Constants",
       "scope": "constant",
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#9876aa"
       }
     },
     {
@@ -2014,8 +2014,8 @@
     "editorWarning.background": "#52503a",
     "editorWarning.border": "#ffffff00",
     "editorInfo.foreground": "#aeae80",
-    "editorInfo.background": "#4490BF00",
-    "editorInfo.border": "#4490BF00",
+    "editorInfo.background": "#4490bf00",
+    "editorInfo.border": "#4490bf00",
     "editorGutter.background": "#2b2b2b",
     "editorGutter.modifiedBackground": "#374752",
     "editorGutter.addedBackground": "#384c38",
@@ -2036,7 +2036,7 @@
     "badge.foreground": "#ffffff",
     "terminal.foreground": "#cccccc",
     "terminal.selectionBackground": "#ffffff40",
-    "terminalCursor.background": "#0087FF",
+    "terminalCursor.background": "#0087ff",
     "terminalCursor.foreground": "#ffffff",
     "terminal.border": "#80808059",
     "terminal.ansiBlack": "#000000",
@@ -2076,7 +2076,7 @@
     "widget.shadow": "#0000005c",
     "editorWidget.foreground": "#cccccc",
     "editorWidget.background": "#3c3f41",
-    "editorWidget.resizeBorder": "#5F5F5F",
+    "editorWidget.resizeBorder": "#5f5f5f",
     "pickerGroup.border": "#4e4eb000",
     "pickerGroup.foreground": "#589df6",
     "debugToolBar.background": "#3c3f41",
@@ -2105,9 +2105,9 @@
     "editorMarkerNavigationWarning.background": "#cca700",
     "editorMarkerNavigationInfo.background": "#75beff",
     "merge.currentHeaderBackground": "#367366",
-    "merge.currentContentBackground": "#27403B",
-    "merge.incomingHeaderBackground": "#395F8F",
-    "merge.incomingContentBackground": "#28384B",
+    "merge.currentContentBackground": "#27403b",
+    "merge.incomingHeaderBackground": "#395f8f",
+    "merge.incomingContentBackground": "#28384b",
     "merge.commonHeaderBackground": "#383838",
     "merge.commonContentBackground": "#2b2b2b",
     "editorSuggestWidget.background": "#46484a",
@@ -2150,7 +2150,7 @@
     "sideBar.dropBackground": "#383b3d",
     "editorGroup.emptyBackground": "#2b2b2b",
     "panelSection.border": "#80808059",
-    "statusBarItem.activeBackground": "#FFFFFF25",
+    "statusBarItem.activeBackground": "#ffffff25",
     "settings.headerForeground": "#bbbbbb",
     "settings.focusedRowBackground": "#ffffff07",
     "walkThrough.embeddedEditorBackground": "#00000050",
