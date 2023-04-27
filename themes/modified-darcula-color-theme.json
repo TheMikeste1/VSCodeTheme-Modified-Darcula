@@ -16,6 +16,7 @@
     },
     "type": {
       "foreground": "#B9BCD1",
+      "italic": true
     },
     "variable.constant": {
       "foreground": "#9876AA"
@@ -144,7 +145,8 @@
         "keyword.operator.cast.static_cast.cpp",
       ],
       "settings": {
-        "foreground": "#cc7832"
+        "foreground": "#629755",
+        "fontStyle": "italic"
       }
     },
     {
@@ -152,6 +154,14 @@
       "scope": "meta.function.c,meta.function.cpp",
       "settings": {
         "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "C++ static_assert",
+      "scope": "keyword.other.static_assert.cpp",
+      "settings": {
+        "foreground": "#629755",
+        "fontStyle": "italic"
       }
     },
     {
