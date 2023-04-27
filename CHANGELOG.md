@@ -8,12 +8,24 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.6] - 2023-04-26
+
+### Added
+
+- C++ casts
+
+### Changed
+
+- Type is now italicized
+- static_assert color changed and italicized
+
+### Fixes
+
+- Start of comment blocks are now normal color instead of document color
 
 ## [0.0.5] - 2023-04-25
 
 ### Added
-
-#### Now colored
 
 - C++ Attributes
 - C++ "this"
@@ -27,4 +39,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 
-- Type color is now #B9BCD1
+- Type color is now #b9bcd1
