@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.7] - 2023-05-08
+
+### Added
+
+- Units (e.g. 0b. 0x)
+
 ## [0.0.6] - 2023-04-26
 
 ### Added

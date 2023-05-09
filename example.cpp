@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 
 using MyType = int;
 
@@ -56,7 +56,7 @@ int main() {
     TEST = 2;
     TEST2 = 3;
 
-    int a /= 0;
+    int a /= 0x1;
     int b = a = static_cast<int>(1.5);
 
     bool c = true;
