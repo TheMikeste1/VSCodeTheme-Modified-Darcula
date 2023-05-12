@@ -43,6 +43,15 @@ void TestClass::thing3()
     this->thing();
 }
 
+
+void test()
+{
+    int a = 1;
+    int b = 2;
+    int c = a + b;
+    // this->thing();
+}
+
 using namespace t;
 // Comment
 /* Block comment */
@@ -51,7 +60,8 @@ int main() {
     const int TESTER2 = 1;  //!< Test
 
     static_assert(2 + 2 == 4);
-
+    test();
+    
     std::cout << "Hello, World!\n" << TEST << TEST2 << std::endl;
     TEST = 2;
     TEST2 = 3;

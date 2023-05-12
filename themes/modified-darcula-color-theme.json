@@ -65,6 +65,7 @@
         "entity.name.function",
         "meta.require",
         "support.function.any-method",
+        "support.function",
         "variable.function"
       ],
       "settings": {
