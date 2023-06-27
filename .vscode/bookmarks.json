@@ -9,37 +9,37 @@
 					"label": "General"
 				},
 				{
-					"line": 117,
+					"line": 132,
 					"column": 7,
 					"label": "C/C++"
 				},
 				{
-					"line": 229,
+					"line": 273,
 					"column": 8,
 					"label": "Haskell"
 				},
 				{
-					"line": 245,
+					"line": 289,
 					"column": 10,
 					"label": "Java"
 				},
 				{
-					"line": 314,
+					"line": 384,
 					"column": 23,
 					"label": "Javascript/Typescript"
 				},
 				{
-					"line": 565,
+					"line": 668,
 					"column": 7,
 					"label": "Python"
 				},
 				{
-					"line": 659,
+					"line": 771,
 					"column": 10,
 					"label": "Rust"
 				},
 				{
-					"line": 710,
+					"line": 832,
 					"column": 9,
 					"label": "Other"
 				}

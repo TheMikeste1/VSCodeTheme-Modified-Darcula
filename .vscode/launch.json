@@ -11,6 +11,7 @@
             "request": "launch",
             "args": [
                 "${workspaceFolder}/example.cpp",
+                "${workspaceFolder}/example.cs",
                 "--extensionDevelopmentPath=${workspaceFolder}",
             ]
         }
