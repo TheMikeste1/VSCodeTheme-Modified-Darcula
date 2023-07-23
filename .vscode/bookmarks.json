@@ -39,22 +39,27 @@
 					"label": "Javascript/Typescript"
 				},
 				{
-					"line": 699,
+					"line": 673,
+					"column": 7,
+					"label": "JSON"
+				},
+				{
+					"line": 727,
 					"column": 0,
 					"label": "Python"
 				},
 				{
-					"line": 802,
+					"line": 830,
 					"column": 0,
 					"label": "Rust"
 				},
 				{
-					"line": 829,
+					"line": 857,
 					"column": 0,
 					"label": "XML"
 				},
 				{
-					"line": 928,
+					"line": 959,
 					"column": 0,
 					"label": "Other"
 				}

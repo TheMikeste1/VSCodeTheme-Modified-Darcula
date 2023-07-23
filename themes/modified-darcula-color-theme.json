@@ -292,7 +292,7 @@
         "foreground": "#a9b7c6"
       }
     },
-    // Git 
+    // Git
     {
       "name": "Git ignore",
       "scope": ["keyword.file.content.ignore"],
@@ -671,6 +671,34 @@
         "foreground": "#a9b7c6"
       }
     },
+    // JSON
+    {
+      "name": "JSON Bad escapes",
+      "scope": ["invalid.illegal.unrecognized-string-escape.json"],
+      "settings": {
+        "foreground": "#f44747",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "JSON Key",
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#9876aa"
+      }
+    },
+    {
+      "name": "JSON Punctuation",
+      "scope": [
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.array.json"
+      ],
+      "settings": {
+        "foreground": "#cc7832"
+      }
+    },
+
     // Python
     {
       "name": "support.variable.magic.python",
@@ -873,7 +901,10 @@
     },
     {
       "name": "XML string",
-      "scope": ["punctuation.definition.string.begin.xml", "punctuation.definition.string.end.xml"],
+      "scope": [
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml"
+      ],
       "settings": {
         "foreground": "#6A8759"
       }
@@ -1516,20 +1547,6 @@
       "scope": [
         "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json"
       ],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] JSON Property Name",
-      "scope": ["support.type.property-name.json"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
-      "scope": ["support.type.property-name.json punctuation"],
       "settings": {
         "foreground": "#a9b7c6"
       }
