@@ -12,7 +12,6 @@
             "args": [
                 "${workspaceFolder}/example.cpp",
                 "${workspaceFolder}/example.cs",
-                "${workspaceFolder}/example.xml",
                 "--extensionDevelopmentPath=${workspaceFolder}",
             ]
         }

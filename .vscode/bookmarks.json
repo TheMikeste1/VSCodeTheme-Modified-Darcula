@@ -21,35 +21,40 @@
 				{
 					"line": 293,
 					"column": 7,
+					"label": "Git"
+				},
+				{
+					"line": 308,
+					"column": 7,
 					"label": "Haskell"
 				},
 				{
-					"line": 304,
+					"line": 319,
 					"column": 10,
 					"label": "Java"
 				},
 				{
-					"line": 399,
+					"line": 414,
 					"column": 23,
 					"label": "Javascript/Typescript"
 				},
 				{
-					"line": 683,
+					"line": 698,
 					"column": 7,
 					"label": "Python"
 				},
 				{
-					"line": 786,
+					"line": 801,
 					"column": 10,
 					"label": "Rust"
 				},
 				{
-					"line": 813,
+					"line": 828,
 					"column": 0,
 					"label": "XML"
 				},
 				{
-					"line": 912,
+					"line": 927,
 					"column": 9,
 					"label": "Other"
 				}

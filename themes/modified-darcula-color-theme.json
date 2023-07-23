@@ -291,6 +291,21 @@
         "foreground": "#a9b7c6"
       }
     },
+    // Git 
+    {
+      "name": "Git ignore",
+      "scope": ["keyword.file.content.ignore"],
+      "settings": {
+        "foreground": "#6a8759"
+      }
+    },
+    {
+      "name": "Git message line too long",
+      "scope": ["invalid.deprecated.line-too-long.git-commit"],
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
     // Haskell
     {
       "name": "haskell variable generic-type",
