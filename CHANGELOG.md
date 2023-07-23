@@ -8,6 +8,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.9] - 2023-07-23
+
+### Added
+
+- XML support
+- Git support
+- JSON support
+- Markdown support
+- CMake support
+
 ## [0.0.8] - 2023-06-26
 
 ### Added
