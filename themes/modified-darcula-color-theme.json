@@ -60,14 +60,6 @@
       }
     },
     {
-      "name": "Comment - XML Doc Tag",
-      "scope": ["comment.documentation.name.cs"],
-      "settings": {
-        "foreground": "#cc7832",
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
@@ -272,6 +264,29 @@
     {
       "name": "C Variables",
       "scope": ["variable.c"],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    // C#
+    {
+      "name": "C# Comment - XML Doc Tag",
+      "scope": ["comment.documentation.name.cs"],
+      "settings": {
+        "foreground": "#cc7832",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# storage type",
+      "scope": ["storage.type.cs"],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "C# local variable",
+      "scope": ["entity.name.variable.local.cs"],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -796,6 +811,71 @@
         "foreground": "#6897bb"
       }
     },
+    // XML
+    {
+      "name": "XML attribute name",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.localname.xml",
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#bababa"
+      }
+    },
+    {
+      "name": "XML data",
+      "scope": [
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml",
+        "string.unquoted.cdata.xml"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "XML entity",
+      "scope": ["constant.character.entity.xml"],
+      "settings": {
+        "foreground": "#6897bb"
+      }
+    },
+    {
+      "name": "XML text",
+      "scope": ["text.xml"],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "XML namespace",
+      "scope": ["entity.name.tag.namespace.xml"],
+      "settings": {
+        "foreground": "#9876aa"
+      }
+    },
+    {
+      "name": "XML string",
+      "scope": ["punctuation.definition.string.begin.xml", "punctuation.definition.string.end.xml"],
+      "settings": {
+        "foreground": "#6A8759"
+      }
+    },
+    {
+      "name": "XML tag",
+      "scope": ["punctuation.definition.tag.xml", "keyword.other.doctype.xml"],
+      "settings": {
+        "foreground": "#e8bf6a"
+      }
+    },
+    {
+      "name": "XML tag name",
+      "scope": ["entity.name.tag.localname.xml"],
+      "settings": {
+        "foreground": "#e8bf6a"
+      }
+    },
     // Other
     {
       "name": "unison punctuation",
@@ -1160,24 +1240,9 @@
       }
     },
     {
-      "name": "Tags",
-      "scope": ["entity.name.tag"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "Attributes",
-      "scope": ["entity.other.attribute-name"],
-      "settings": {
-        "foreground": "#6897bb"
-      }
-    },
-    {
       "name": "Attribute IDs",
       "scope": ["entity.other.attribute-name.id"],
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#ffc66d"
       }
     },
@@ -1185,7 +1250,6 @@
       "name": "Attribute class",
       "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#6897bb"
       }
     },
@@ -1686,20 +1750,6 @@
     {
       "name": "block scope",
       "scope": ["block.scope.end", "block.scope.begin"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "C# storage type",
-      "scope": ["storage.type.cs"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "C# local variable",
-      "scope": ["entity.name.variable.local.cs"],
       "settings": {
         "foreground": "#a9b7c6"
       }

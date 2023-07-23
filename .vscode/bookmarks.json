@@ -9,37 +9,47 @@
 					"label": "General"
 				},
 				{
-					"line": 132,
+					"line": 124,
 					"column": 7,
 					"label": "C/C++"
 				},
 				{
-					"line": 273,
-					"column": 8,
+					"line": 270,
+					"column": 7,
+					"label": "C#"
+				},
+				{
+					"line": 293,
+					"column": 7,
 					"label": "Haskell"
 				},
 				{
-					"line": 289,
+					"line": 304,
 					"column": 10,
 					"label": "Java"
 				},
 				{
-					"line": 384,
+					"line": 399,
 					"column": 23,
 					"label": "Javascript/Typescript"
 				},
 				{
-					"line": 668,
+					"line": 683,
 					"column": 7,
 					"label": "Python"
 				},
 				{
-					"line": 771,
+					"line": 786,
 					"column": 10,
 					"label": "Rust"
 				},
 				{
-					"line": 832,
+					"line": 813,
+					"column": 0,
+					"label": "XML"
+				},
+				{
+					"line": 912,
 					"column": 9,
 					"label": "Other"
 				}
