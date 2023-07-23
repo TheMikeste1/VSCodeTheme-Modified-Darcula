@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.8] - 2023-06-26
+
+### Added
+
+- C# support
+
 ## [0.0.7] - 2023-05-08
 
 ### Added
