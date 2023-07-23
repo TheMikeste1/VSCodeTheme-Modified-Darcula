@@ -44,22 +44,27 @@
 					"label": "JSON"
 				},
 				{
-					"line": 727,
-					"column": 0,
+					"line": 700,
+					"column": 8,
+					"label": "Markdown"
+				},
+				{
+					"line": 813,
+					"column": 9,
 					"label": "Python"
 				},
 				{
-					"line": 830,
+					"line": 942,
 					"column": 0,
 					"label": "Rust"
 				},
 				{
-					"line": 857,
+					"line": 969,
 					"column": 0,
 					"label": "XML"
 				},
 				{
-					"line": 959,
+					"line": 1071,
 					"column": 0,
 					"label": "Other"
 				}
