@@ -19,52 +19,52 @@
 					"label": "C#"
 				},
 				{
-					"line": 294,
+					"line": 313,
 					"column": 0,
 					"label": "Git"
 				},
 				{
-					"line": 309,
+					"line": 329,
 					"column": 0,
 					"label": "Haskell"
 				},
 				{
-					"line": 325,
+					"line": 345,
 					"column": 0,
 					"label": "Java"
 				},
 				{
-					"line": 415,
+					"line": 435,
 					"column": 0,
 					"label": "Javascript/Typescript"
 				},
 				{
-					"line": 673,
+					"line": 693,
 					"column": 7,
 					"label": "JSON"
 				},
 				{
-					"line": 700,
+					"line": 720,
 					"column": 8,
 					"label": "Markdown"
 				},
 				{
-					"line": 813,
+					"line": 831,
 					"column": 9,
 					"label": "Python"
 				},
 				{
-					"line": 942,
+					"line": 960,
 					"column": 0,
 					"label": "Rust"
 				},
 				{
-					"line": 969,
+					"line": 987,
 					"column": 0,
 					"label": "XML"
 				},
 				{
-					"line": 1071,
+					"line": 1089,
 					"column": 0,
 					"label": "Other"
 				}

@@ -292,6 +292,26 @@
         "foreground": "#a9b7c6"
       }
     },
+
+    // CMake
+    {
+      "name": "CMake Entity",
+      "scope": [
+        "entity",
+      ],
+      "settings": {
+        "foreground": "#cc7832"
+      }
+    }, 
+    {
+      "name": "CMake Keyword",
+      "scope": [
+        "keyword.cmake",
+      ],
+      "settings": {
+        "foreground": "#ffc66d"
+      }
+    }, 
     // Git
     {
       "name": "Git ignore",
@@ -719,7 +739,7 @@
         "meta.image.inline.markdown",
         "string.other.link.description.markdown",
         "meta.link.inline.markdown",
-        "meta.link.reference.markdown",
+        "meta.link.reference.markdown"
       ],
       "settings": {
         "foreground": "#287bde"
@@ -803,9 +823,7 @@
     },
     {
       "name": "Markdown Quotes",
-      "scope": [
-        "markup.quote.markdown",
-      ],
+      "scope": ["markup.quote.markdown"],
       "settings": {
         "foreground": "#6a8759"
       }

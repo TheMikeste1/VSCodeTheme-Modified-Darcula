@@ -10,7 +10,7 @@
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "${workspaceFolder}/example.md",
+                "${workspaceFolder}/example.cmake",
                 "${workspaceFolder}/example.json",
                 "${workspaceFolder}/example.cpp",
                 "${workspaceFolder}/example.cs",
