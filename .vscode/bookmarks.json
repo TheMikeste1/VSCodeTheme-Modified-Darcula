@@ -4,58 +4,58 @@
 			"path": "themes/modified-darcula-color-theme.json",
 			"bookmarks": [
 				{
-					"line": 29,
-					"column": 11,
+					"line": 30,
+					"column": 0,
 					"label": "General"
 				},
 				{
-					"line": 124,
-					"column": 7,
+					"line": 125,
+					"column": 0,
 					"label": "C/C++"
 				},
 				{
-					"line": 270,
-					"column": 7,
+					"line": 271,
+					"column": 0,
 					"label": "C#"
 				},
 				{
-					"line": 293,
-					"column": 7,
+					"line": 294,
+					"column": 0,
 					"label": "Git"
 				},
 				{
-					"line": 308,
-					"column": 7,
+					"line": 309,
+					"column": 0,
 					"label": "Haskell"
 				},
 				{
-					"line": 319,
-					"column": 10,
+					"line": 325,
+					"column": 0,
 					"label": "Java"
 				},
 				{
-					"line": 414,
-					"column": 23,
+					"line": 415,
+					"column": 0,
 					"label": "Javascript/Typescript"
 				},
 				{
-					"line": 698,
-					"column": 7,
+					"line": 699,
+					"column": 0,
 					"label": "Python"
 				},
 				{
-					"line": 801,
-					"column": 10,
+					"line": 802,
+					"column": 0,
 					"label": "Rust"
 				},
 				{
-					"line": 828,
+					"line": 829,
 					"column": 0,
 					"label": "XML"
 				},
 				{
-					"line": 927,
-					"column": 9,
+					"line": 928,
+					"column": 0,
 					"label": "Other"
 				}
 			]
