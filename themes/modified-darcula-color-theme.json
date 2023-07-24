@@ -354,6 +354,62 @@
         "foreground": "#f44747"
       }
     },
+    // HTML
+    {
+      "name": "HTML attribute name",
+      "scope": [
+        "entity.other.attribute-name",
+        "punctuation.separator.namespace.html"
+      ],
+      "settings": {
+        "foreground": "#bababa"
+      }
+    },
+    {
+      "name": "HTML data",
+      "scope": ["string.unquoted.cdata.html"],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "HTML entity",
+      "scope": ["constant.character.entity"],
+      "settings": {
+        "foreground": "#6897bb"
+      }
+    },
+    {
+      "name": "HTML text",
+      "scope": ["text.html"],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "HTML values",
+      "scope": [
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.unquoted.html",
+      ],
+      "settings": {
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "name": "HTML tag",
+      "scope": [
+        "entity.name.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+],
+      "settings": {
+        "foreground": "#e8bf6a"
+      }
+    },
     // JSON
     {
       "name": "JSON Bad escapes",
@@ -626,7 +682,7 @@
       "name": "Deprecated",
       "scope": ["invalid.deprecated"],
       "settings": {
-        "foreground": "#ffffff"
+        "fontStyle": "strikethrough"
       }
     },
     {

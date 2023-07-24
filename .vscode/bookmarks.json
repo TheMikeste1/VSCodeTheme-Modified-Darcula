@@ -24,22 +24,22 @@
 					"label": "Git"
 				},
 				{
-					"line": 356,
+					"line": 412,
 					"column": 0,
 					"label": "JSON"
 				},
 				{
-					"line": 383,
+					"line": 439,
 					"column": 0,
 					"label": "Markdown"
 				},
 				{
-					"line": 494,
+					"line": 550,
 					"column": 0,
 					"label": "Python"
 				},
 				{
-					"line": 520,
+					"line": 576,
 					"column": 0,
 					"label": "XML"
 				}
