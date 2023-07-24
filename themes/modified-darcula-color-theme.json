@@ -113,7 +113,8 @@
       "scope": [
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
-        "punctuation.section.embedded"
+        "punctuation.section.embedded",
+        "variable.interpolation"
       ],
       "settings": {
         "foreground": "#cc7832"
@@ -497,7 +498,6 @@
       "scope": [
         "support.module.node",
         "support.type.object.module",
-        "support.module.node"
       ],
       "settings": {
         "foreground": "#a9b7c6"
@@ -539,7 +539,7 @@
     },
     {
       "name": "js console function",
-      "scope": ["entity.name.function", "support.function.console"],
+      "scope": ["support.function.console"],
       "settings": {
         "foreground": "#ffc66d"
       }
@@ -598,8 +598,6 @@
         "keyword.operator.expression.delete",
         "keyword.operator.expression.in",
         "keyword.operator.expression.of",
-        "keyword.operator.expression.instanceof",
-        "keyword.operator.new",
         "keyword.operator.expression.typeof",
         "keyword.operator.expression.void"
       ],
@@ -1000,8 +998,6 @@
     {
       "name": "XML data",
       "scope": [
-        "punctuation.definition.string.begin.xml",
-        "punctuation.definition.string.end.xml",
         "string.unquoted.cdata.xml"
       ],
       "settings": {
@@ -1320,7 +1316,7 @@
     },
     {
       "name": "Control Elements",
-      "scope": ["control.elements", "keyword.operator.less"],
+      "scope": ["control.elements"],
       "settings": {
         "foreground": "#6897bb"
       }
@@ -1342,13 +1338,6 @@
     {
       "name": "Java Storage",
       "scope": ["token.storage.type.java"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "Support",
-      "scope": ["support.function"],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -1440,13 +1429,6 @@
     {
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "Embedded",
-      "scope": ["punctuation.section.embedded", "variable.interpolation"],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -1640,7 +1622,6 @@
         "punctuation.definition.end.bracket.round.php",
         "punctuation.definition.begin.bracket.curly.php",
         "punctuation.definition.end.bracket.curly.php",
-        "punctuation.definition.section.switch-block.end.bracket.curly.php",
         "punctuation.definition.section.switch-block.start.bracket.curly.php",
         "punctuation.definition.section.switch-block.begin.bracket.curly.php",
         "punctuation.definition.section.switch-block.end.bracket.curly.php"
@@ -1908,7 +1889,6 @@
         "support.type.object.hlsl",
         "support.type.object.rw.hlsl",
         "support.type.fx.hlsl",
-        "support.type.object.hlsl"
       ],
       "settings": {
         "foreground": "#cc7832"
@@ -2018,7 +1998,7 @@
     },
     {
       "name": "meta.brace.square",
-      "scope": [" meta.brace.square"],
+      "scope": ["meta.brace.square"],
       "settings": {
         "foreground": "#a9b7c6"
       }
