@@ -4,8 +4,13 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    // General
     "enumMember": {
-      "foreground": "#a9b7c6"
+      "foreground": "#9876aa",
+      "bold": true,
+    },
+    "function.builtin": {
+      "foreground": "#8888c6"
     },
     "namespace": {
       "foreground": "#a9b7c677",
@@ -19,8 +24,17 @@
       "foreground": "#b9bcd1",
       "italic": true
     },
-    "variable.constant": {
-      "foreground": "#9876aa"
+    "type.defaultLibrary": {
+      "foreground": "#cc7832",
+      "italic": false
+    },
+    "type.deduced": {
+      "foreground": "#cc7832",
+      "italic": false
+    },
+    "typeParameter.readonly": {
+      "foreground": "#9876aa",
+      "italic": true
     },
     "variable.defaultLibrary": {
       "foreground": "#a9b7c6"
@@ -28,6 +42,14 @@
     "variable.global": {
       "foreground": "#9876aa",
       "underline": true
+    },
+    "variable.readonly": {
+      "foreground": "#9876aa",
+      "bold": true
+    },
+    // Python
+    "class.builtin:python": {
+      "foreground": "#8888c6"
     },
   },
   "tokenColors": [
@@ -251,7 +273,11 @@
     },
     {
       "name": "'This'",
-      "scope": ["variable.language.this", "variable.parameter.function.language.special.self", "variable.language.special.self"],
+      "scope": [
+        "variable.language.this",
+        "variable.parameter.function.language.special.self",
+        "variable.language.special.self"
+      ],
       "settings": {
         "foreground": "#cc7832"
       }
@@ -289,7 +315,10 @@
     // C#
     {
       "name": "Comment tags",
-      "scope": ["entity.name.tag.localname.cs", "punctuation.definition.tag.cs"],
+      "scope": [
+        "entity.name.tag.localname.cs",
+        "punctuation.definition.tag.cs"
+      ],
       "settings": {
         "foreground": "#cc7832",
         "fontStyle": "italic"
@@ -480,7 +509,10 @@
     },
     {
       "name": "Python Self",
-      "scope": ["variable.language.special.self.python", "variable.parameter.function.language.special.self.python"],
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python"
+      ],
       "settings": {
         "foreground": "#94558d"
       }
@@ -521,7 +553,10 @@
     },
     {
       "name": "XML namespace",
-      "scope": ["entity.name.tag.namespace.xml", "entity.other.attribute-name.namespace.xml"],
+      "scope": [
+        "entity.name.tag.namespace.xml",
+        "entity.other.attribute-name.namespace.xml"
+      ],
       "settings": {
         "foreground": "#9876aa"
       }

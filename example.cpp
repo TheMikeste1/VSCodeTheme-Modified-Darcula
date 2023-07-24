@@ -1,88 +1,63 @@
- #include <iostream>
-
-using MyType = int;
-
-namespace t {
-  constexpr int TEST = 1;
-  const int TEST2 = 2;
-}
-
-/**
- * @brief TEST <code>Markup</code>
+ /*
+ * Block comment 
  */
-class TestClass {
+#include <cstdio>
+#include <vector>
 
-    int tester = 0;
+using namespace std;  // line comment
+namespace foo {
 
-    void thing()
-    {
-        MyType a = 1;
-        int b = 2;
-        int c = a + b;
-        this->thing();
-        this->tester = 5;
+  typedef struct Struct {
+    int field;
+  } Typedef;
+  enum Enum {Foo = 1, Bar = 2};
+
+  Typedef *globalVar;
+  extern Typedef *externVar;
+
+  template<typename T, int N>
+  class Class {
+    T n;
+  public:
+    /**
+     * Semantic highlighting:
+     * Generated spectrum to pick colors for local variables and parameters:
+     *  Color#1 SC1.1 SC1.2 SC1.3 SC1.4 Color#2 SC2.1 SC2.2 SC2.3 SC2.4 Color#3
+     *  Color#3 SC3.1 SC3.2 SC3.3 SC3.4 Color#4 SC4.1 SC4.2 SC4.3 SC4.4 Color#5
+     */
+    void function(int param1, int param2, int param3) {
+      int localVar1, localVar2, localVar3;
+      int *localVar = new int[1];
+      std::vector<int> vec = { 1, 2, 3 };
+      this->n = N;
+      localVar1 = param1 + param2 + localVar3;
+
+    label:
+      printf("Formatted string %d\n\g", localVar[0]);
+      printf(R"**(Formatted raw-string %d\n)**", 1);
+      std::cout << (1 << 2) << std::endl;  
+
+    /**
+     * Macro documentation comment
+     * @param A description
+     */
+    #define FOO(A) A
+    #ifdef DEBUG
+      printf("debug");
+    #endif
     }
+  };
 
-    template <typename T, size_t SizeT>
-    [[maybe_unused]] void thing2() noexcept
-    {
-        T a = SizeT;
-        T b = 2;
-        T c = a + b;
-        this->thing();
-    }
+  template <typename T>
+  concept Concept = requires (T t) {
+    t.field;
+  };
 
-    void thing3();
-};
+  template<typename T>
+  struct Widget {
+      Widget(T t);
+  };
 
-using TT = TestClass;
-
-void TestClass::thing3()
-{
-    MyType a = 1;
-    int b = 2;
-    int c = a + b;
-    this->thing();
-}
-
-
-void test()
-{
-    int a = 1;
-    int b = 2;
-    int c = a + b;
-    // this->thing();
-}
-
-using namespace t;
-// Comment
-/* Block comment */
-int main() {
-    constexpr int TESTER = 1;
-    const int TESTER2 = 1;  //!< Test
-
-    static_assert(2 + 2 == 4);
-    test();
-    size_t  *head
-    std::cout << "Hello, World!\n" << TEST << TEST2 << std::endl;
-    TEST = 2;
-    TEST2 = 3;
-
-    int a /= 0x1;
-    int b = a = static_cast<int>(1.5);
-
-    bool c = true;
-    int d = 0b0011;
-    long f = sizeof(int);
-    TestClass testClass;
-    auto i = 5;
-
-    if (false)
-    {
-
-    }
-
-    auto t = new int[5] {1, 2, 3, 4, 5};
-
-    return 0;
+  template<typename T>
+  Widget(T) -> Widget<typename T::value_type>;
 }
