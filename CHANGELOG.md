@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.11] - 2023-07-24
+
+Better semantics
+
 ## [0.0.10] - 2023-07-24
 
 ***Major refactor***
