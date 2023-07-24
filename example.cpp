@@ -35,6 +35,8 @@ class TestClass {
     void thing3();
 };
 
+using TT = TestClass;
+
 void TestClass::thing3()
 {
     MyType a = 1;
@@ -61,7 +63,7 @@ int main() {
 
     static_assert(2 + 2 == 4);
     test();
-    
+    size_t  *head
     std::cout << "Hello, World!\n" << TEST << TEST2 << std::endl;
     TEST = 2;
     TEST2 = 3;
@@ -70,6 +72,17 @@ int main() {
     int b = a = static_cast<int>(1.5);
 
     bool c = true;
+    int d = 0b0011;
+    long f = sizeof(int);
+    TestClass testClass;
+    auto i = 5;
+
+    if (false)
+    {
+
+    }
+
+    auto t = new int[5] {1, 2, 3, 4, 5};
 
     return 0;
 }
