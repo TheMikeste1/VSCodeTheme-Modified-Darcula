@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.10] - 2023-07-24
+
+***Major refactor***
+
 ## [0.0.9] - 2023-07-23
 
 ### Added
