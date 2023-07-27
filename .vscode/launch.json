@@ -10,9 +10,7 @@
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "${workspaceFolder}/example.json",
-                "${workspaceFolder}/example.cpp",
-                "${workspaceFolder}/example.cs",
+                "${workspaceFolder}/examples/",
                 "--extensionDevelopmentPath=${workspaceFolder}",
             ]
         }
