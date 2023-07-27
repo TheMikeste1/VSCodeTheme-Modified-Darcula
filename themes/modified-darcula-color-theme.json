@@ -7,7 +7,7 @@
     // General
     "enumMember": {
       "foreground": "#9876aa",
-      "bold": true,
+      "bold": true
     },
     "function.builtin": {
       "foreground": "#8888c6"
@@ -50,7 +50,7 @@
     // Python
     "class.builtin:python": {
       "foreground": "#8888c6"
-    },
+    }
   },
   "tokenColors": [
     // General
@@ -266,7 +266,7 @@
     },
     {
       "name": "Template entity",
-      "scope": ["entity.name.type.template"],
+      "scope": ["entity.name.type.template", "entity.name.type.parameter"],
       "settings": {
         "foreground": "#9876aa"
       }
@@ -314,6 +314,14 @@
     },
     // C#
     {
+      "name": "Comment attributes",
+      "scope": ["comment.documentation.attribute.name.cs"],
+      "settings": {
+        "foreground": "#bababa",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Comment tags",
       "scope": [
         "entity.name.tag.localname.cs",
@@ -324,6 +332,7 @@
         "fontStyle": "italic"
       }
     },
+
     // CMake
     {
       "name": "CMake Entity",
@@ -393,7 +402,7 @@
         "punctuation.definition.string.end.html",
         "string.quoted.double.html",
         "string.quoted.single.html",
-        "string.unquoted.html",
+        "string.unquoted.html"
       ],
       "settings": {
         "foreground": "#A5C261"
@@ -404,8 +413,8 @@
       "scope": [
         "entity.name.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-],
+        "punctuation.definition.tag.end.html"
+      ],
       "settings": {
         "foreground": "#e8bf6a"
       }
@@ -641,8 +650,8 @@
         "foreground": "#e8bf6a"
       }
     },
-    // Other
 
+    // Other
     {
       "name": "Selector",
       "scope": ["meta.selector"],

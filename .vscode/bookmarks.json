@@ -14,32 +14,32 @@
 					"label": "C#"
 				},
 				{
-					"line": 326,
+					"line": 335,
 					"column": 0,
 					"label": "CMake"
 				},
 				{
-					"line": 341,
+					"line": 350,
 					"column": 0,
 					"label": "Git"
 				},
 				{
-					"line": 412,
+					"line": 421,
 					"column": 0,
 					"label": "JSON"
 				},
 				{
-					"line": 439,
+					"line": 448,
 					"column": 0,
 					"label": "Markdown"
 				},
 				{
-					"line": 550,
+					"line": 559,
 					"column": 0,
 					"label": "Python"
 				},
 				{
-					"line": 576,
+					"line": 585,
 					"column": 0,
 					"label": "XML"
 				}
