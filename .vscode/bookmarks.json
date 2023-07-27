@@ -4,42 +4,42 @@
 			"path": "themes/modified-darcula-color-theme.json",
 			"bookmarks": [
 				{
-					"line": 305,
+					"line": 311,
 					"column": 0,
 					"label": "C/C++"
 				},
 				{
-					"line": 313,
+					"line": 319,
 					"column": 0,
 					"label": "C#"
 				},
 				{
-					"line": 335,
+					"line": 351,
 					"column": 0,
 					"label": "CMake"
 				},
 				{
-					"line": 350,
+					"line": 366,
 					"column": 0,
 					"label": "Git"
 				},
 				{
-					"line": 421,
+					"line": 437,
 					"column": 0,
 					"label": "JSON"
 				},
 				{
-					"line": 448,
+					"line": 464,
 					"column": 0,
 					"label": "Markdown"
 				},
 				{
-					"line": 559,
+					"line": 575,
 					"column": 0,
 					"label": "Python"
 				},
 				{
-					"line": 585,
+					"line": 601,
 					"column": 0,
 					"label": "XML"
 				}
