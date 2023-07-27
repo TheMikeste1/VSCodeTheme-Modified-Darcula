@@ -124,8 +124,14 @@
       }
     },
     {
-      "name": "Directives",
-      "scope": ["keyword.control.directive", "entity.name.function.decorator"],
+      "name": "Directives & Preprocessor",
+      "scope": [
+        "keyword.control.directive",
+        "keyword.preprocessor",
+        "entity.name.function.decorator",
+        "meta.preprocessor",
+        "meta.preprocessor.cs"
+      ],
       "settings": {
         "foreground": "#bbb529"
       }
@@ -314,7 +320,7 @@
     },
     // C#
     {
-      "name": "Comment attributes",
+      "name": "C# Comment attributes",
       "scope": ["comment.documentation.attribute.name.cs"],
       "settings": {
         "foreground": "#bababa",
@@ -322,7 +328,7 @@
       }
     },
     {
-      "name": "Comment tags",
+      "name": "C# Comment tags",
       "scope": [
         "entity.name.tag.localname.cs",
         "punctuation.definition.tag.cs"
@@ -330,6 +336,16 @@
       "settings": {
         "foreground": "#cc7832",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Directives & preprocessor",
+      "scope": [
+        "meta.preprocessor.cs", 
+        "punctuation.separator.hash.cs",
+      ],
+      "settings": {
+        "foreground": "#bbb529"
       }
     },
 

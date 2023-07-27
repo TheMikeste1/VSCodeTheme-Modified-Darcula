@@ -36,7 +36,7 @@ class All
     {
       var usual = 31 * parameter;
       var sum = 0;
-      foreach (var number in new[] {1, 2, 3, 4, 5})
+      foreach (var number in new[] { 1, 2, 3, 4, 5 })
       {
         sum += number << 2;
 #if !RELEASE
@@ -66,6 +66,6 @@ public static class Util
   public static bool CheckReflexivity<T>(this T value)
       where T : IComparable<T>
   {
-      return value.CompareTo(value: value) == 0;
+    return value.CompareTo(value: value) == 0;
   }
 }
