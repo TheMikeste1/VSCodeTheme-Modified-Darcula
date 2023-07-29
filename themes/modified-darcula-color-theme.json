@@ -162,6 +162,7 @@
       "name": "Functions",
       "scope": [
         "entity.name.function",
+        "entity.name.command",
         "meta.require",
         "support.function",
         "variable.function"
@@ -206,8 +207,8 @@
         "keyword.operator.sizeof",
         "keyword.operator.wordlike",
         "keyword.operator.new",
+        "punctuation.definition.interpolation",
         "storage.modifier",
-        "storage.modifier"
       ],
       "settings": {
         "foreground": "#cc7832"
