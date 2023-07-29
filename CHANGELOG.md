@@ -8,6 +8,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
+## [0.0.12] - 2023-07-28
+
+### Added
+
+- Bash/Shell support
+- C# doc attribute coloring
+- HTML support
+- Type parameter coloring
+
+### Fixed
+
+- C++ `delete`
+- `constant.numeric.other.suffix`
+- `entity.name.variable.field`
+- `keyword.preprocessor`
+- `meta.function-call`
+
 ## [0.0.11] - 2023-07-24
 
 Better semantics
