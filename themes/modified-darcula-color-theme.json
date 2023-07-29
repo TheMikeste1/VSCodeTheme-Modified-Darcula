@@ -184,6 +184,7 @@
       "name": "Functions",
       "scope": [
         "entity.name.function",
+        "meta.function-call",
         "meta.require",
         "support.function",
         "variable.function"
