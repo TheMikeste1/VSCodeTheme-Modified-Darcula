@@ -9,6 +9,10 @@
       "foreground": "#9876aa",
       "bold": true
     },
+    "field": {
+      "foreground": "#9876aa",
+      "italic": true
+    },
     "function.builtin": {
       "foreground": "#8888c6"
     },
@@ -159,10 +163,29 @@
       }
     },
     {
+      "name": "Event",
+      "scope": ["variable.other.event", "support.class.event", "support.class.builtin.event"],
+      "settings": {
+        "foreground": "#ffc66d",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Field",
+      "scope": [
+        "entity.name.variable.field",
+      ],
+      "settings": {
+        "foreground": "#9876aa",
+        "fontStyle": "italic",
+      }
+    },
+    {
       "name": "Functions",
       "scope": [
-        "entity.name.function",
         "entity.name.command",
+        "entity.name.function",
+        "meta.function-call",
         "meta.require",
         "support.function",
         "variable.function"
@@ -203,6 +226,8 @@
       "name": "Keywords",
       "scope": [
         "constant.language",
+        "constant.numeric.other.preffix",
+        "constant.numeric.other.suffix",
         "keyword",
         "keyword.operator.sizeof",
         "keyword.operator.wordlike",
