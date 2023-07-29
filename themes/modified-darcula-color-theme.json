@@ -228,6 +228,7 @@
         "constant.language",
         "constant.numeric.other.preffix",
         "constant.numeric.other.suffix",
+        "entity.name.label",
         "keyword",
         "keyword.operator.sizeof",
         "keyword.operator.wordlike",
@@ -259,7 +260,12 @@
     },
     {
       "name": "Operator",
-      "scope": ["keyword.operator"],
+      "scope": [
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.bitwise",
+        "keyword.operator.comparison",
+      ],
       "settings": {
         "foreground": "#a9b7c6"
       }
