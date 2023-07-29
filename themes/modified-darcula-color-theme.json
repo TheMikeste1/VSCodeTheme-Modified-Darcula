@@ -224,6 +224,8 @@
       "name": "Keywords",
       "scope": [
         "constant.language",
+        "constant.numeric.other.preffix",
+        "constant.numeric.other.suffix",
         "keyword",
         "keyword.operator.sizeof",
         "keyword.operator.wordlike",
