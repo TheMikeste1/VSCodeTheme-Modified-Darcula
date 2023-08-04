@@ -280,6 +280,13 @@
       }
     },
     {
+      "name": "Shebang",
+      "scope": ["meta.shebang"],
+      "settings": {
+        "foreground": "#6a8759"
+      }
+    },
+    {
       "name": "Strings",
       "scope": ["string"],
       "settings": {
