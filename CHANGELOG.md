@@ -7,6 +7,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+## [0.0.13] - 2023-08-04
+
+### Added
+- Shebangs are now colored
+
+### Fixed
+- Git line too long targetted wrong textmate
+- Semantic `class.constructorOrDestructor` is colored
+- `variable.other.constant` is now colored
 
 ## [0.0.12] - 2023-07-28
 
