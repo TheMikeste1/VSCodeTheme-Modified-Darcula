@@ -164,7 +164,11 @@
     },
     {
       "name": "Event",
-      "scope": ["variable.other.event", "support.class.event", "support.class.builtin.event"],
+      "scope": [
+        "variable.other.event",
+        "support.class.event",
+        "support.class.builtin.event"
+      ],
       "settings": {
         "foreground": "#ffc66d",
         "fontStyle": "italic"
@@ -172,12 +176,10 @@
     },
     {
       "name": "Field",
-      "scope": [
-        "entity.name.variable.field",
-      ],
+      "scope": ["entity.name.variable.field"],
       "settings": {
         "foreground": "#9876aa",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
@@ -234,7 +236,7 @@
         "keyword.operator.wordlike",
         "keyword.operator.new",
         "punctuation.definition.interpolation",
-        "storage.modifier",
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#cc7832"
@@ -264,7 +266,7 @@
         "keyword.operator.arithmetic",
         "keyword.operator.assignment",
         "keyword.operator.bitwise",
-        "keyword.operator.comparison",
+        "keyword.operator.comparison"
       ],
       "settings": {
         "foreground": "#a9b7c6"
@@ -372,10 +374,7 @@
     },
     {
       "name": "C# Directives & preprocessor",
-      "scope": [
-        "meta.preprocessor.cs", 
-        "punctuation.separator.hash.cs",
-      ],
+      "scope": ["meta.preprocessor.cs", "punctuation.separator.hash.cs"],
       "settings": {
         "foreground": "#bbb529"
       }
@@ -406,9 +405,17 @@
     },
     {
       "name": "Git message line too long",
-      "scope": ["invalid.deprecated.line-too-long.git-commit"],
+      "scope": ["invalid.illegal.line-too-long"],
       "settings": {
         "foreground": "#f44747"
+      }
+    },
+    {
+      "name": "[Deprecated] Git message line too long",
+      "scope": ["invalid.deprecated.line-too-long.git-commit"],
+      "settings": {
+        "foreground": "#a9b7c6",
+        "fontStyle": ""
       }
     },
     // HTML
