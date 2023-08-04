@@ -5,6 +5,9 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     // General
+    "class.constructorOrDestructor": {
+      "foreground": "#ffc66d"
+    },
     "enumMember": {
       "foreground": "#9876aa",
       "bold": true
