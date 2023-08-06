@@ -43,6 +43,9 @@
       "foreground": "#9876aa",
       "italic": true
     },
+    "variable.builtin": {
+      "foreground": "#8888c6",
+    },
     "variable.defaultLibrary": {
       "foreground": "#a9b7c6"
     },
