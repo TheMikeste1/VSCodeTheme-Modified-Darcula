@@ -44,7 +44,7 @@
       "italic": true
     },
     "variable.builtin": {
-      "foreground": "#8888c6",
+      "foreground": "#8888c6"
     },
     "variable.defaultLibrary": {
       "foreground": "#a9b7c6"
@@ -211,7 +211,7 @@
     },
     {
       "name": "Function Parameter",
-      "scope": ["variable.parameter.function"],
+      "scope": ["meta.function-call.arguments", "variable.parameter.function"],
       "settings": {
         "foreground": "#a9b7c6"
       }
