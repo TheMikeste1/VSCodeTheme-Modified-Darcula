@@ -8,6 +8,9 @@
     "class.constructorOrDestructor": {
       "foreground": "#ffc66d"
     },
+    "class.deduced": {
+      "foreground": "#cc7832"
+    },
     "enumMember": {
       "foreground": "#9876aa",
       "bold": true
