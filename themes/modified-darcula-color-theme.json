@@ -118,6 +118,7 @@
       "scope": [
         "comment.documentation",
         "comment.block.documentation",
+        "comment.line.double-slash.documentation",
         "punctuation.definition.comment.begin.documentation",
         "punctuation.definition.comment.end.documentation"
       ],
