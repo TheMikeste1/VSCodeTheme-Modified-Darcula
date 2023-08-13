@@ -4,9 +4,13 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
-## [Unreleased]
+## [0.0.14] - 2023-13-04
+### Fixed
+- Semantic `builtin`
+- Semantic deduced types
+- Line doc comment
+- Python function parameters
 
-- Initial release
 ## [0.0.13] - 2023-08-04
 
 ### Added
