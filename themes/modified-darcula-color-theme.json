@@ -143,6 +143,7 @@
         "keyword.control.directive",
         "keyword.preprocessor",
         "entity.name.function.decorator",
+        "entity.name.function.preprocessor",
         "meta.preprocessor",
         "meta.preprocessor.cs"
       ],
