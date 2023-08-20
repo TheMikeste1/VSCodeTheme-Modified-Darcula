@@ -4,8 +4,16 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
-## [0.0.14] - 2023-13-04
+## [0.0.15] - 2023-20-04
+
 ### Fixed
+
+- Some preprocessor tags
+
+## [0.0.14] - 2023-13-04
+
+### Fixed
+
 - Semantic `builtin`
 - Semantic deduced types
 - Line doc comment
@@ -14,9 +22,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.13] - 2023-08-04
 
 ### Added
+
 - Shebangs are now colored
 
 ### Fixed
+
 - Git line too long targetted wrong textmate
 - Semantic `class.constructorOrDestructor` is colored
 - `variable.other.constant` is now colored
@@ -44,7 +54,7 @@ Better semantics
 
 ## [0.0.10] - 2023-07-24
 
-***Major refactor***
+**_Major refactor_**
 
 ## [0.0.9] - 2023-07-23
 
